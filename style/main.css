@@ -1,0 +1,193 @@
+/*------------ WEBPAGE SETTINGS ------------*/
+body {
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #ed1e79;
+    font-weight: 400;
+}
+
+/* ------------ HEADER ----------------*/
+header {
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    padding-top: 8px;
+    margin-right: 0;
+}
+
+.OZIO-title {
+    display: inline;
+    padding: 10px 145px;
+    color: #4d4d4d;
+    font-family: Raleway;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .OZIO {
+    color: #ed1e79;
+    font-weight: 700;
+}
+
+header ul {
+    float: right;
+    margin-top: 13px;
+    margin-bottom: 2px;
+    list-style: none;
+    text-align: right;
+}
+
+header ul li {
+    margin: 0 20px;
+    display: inline;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+header ul li:last-child {
+    margin-right: 39px;
+}
+
+header ul li a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #58595b;
+}
+
+.home-img {
+    width: 100%;
+}
+
+/* ------------ BODY ----------------*/
+.OZIO-body {
+    text-align: center;
+    color: #ffffff;
+}
+
+.OZIO-body .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+.OZIO-body .centered {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.OZIO-body .OZIO {
+    color: #ed1e79;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.OZIO-body .intro, .section, .section2 {
+    padding: 0 13%;
+    padding-bottom: 120px;
+}
+
+.OZIO-body .section {
+    padding-top: 120px;
+}
+
+.OZIO-body h1 {
+    margin-top: 33px;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.OZIO-body h2, ul li {
+    font-size: 24px;
+    letter-spacing: 0.96px;
+    font-weight: 400;
+}
+
+.OZIO-body table {
+    border: none;
+    margin: 0 auto;
+}
+
+.OZIO-body .spacing {
+    margin-bottom: 50px;
+}
+
+.OZIO-body table tr td img {
+    margin-right: 20px;
+}
+
+.OZIO-body table .view {/*Style for the view buttons*/
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background-color: #ed1e79;
+    color: #f1f2f2;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+
+.OZIO-body .section ul { /*This is to center the bullet points with the words of the list*/
+    list-style-position: inside;
+}
+
+/* FORM ELEMENTS */
+/*this is the style for the input elements*/
+.OZIO-body .info, textarea {
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #ed1e79;
+    text-indent: 10px;
+}
+
+.OZIO-body .info {
+    height: 30px;
+    width: 300px;
+    margin: 0 21px;
+}
+
+.OZIO-body textarea {
+    width: 300px;
+    height: 136px;
+}
+
+.OZIO-body .section2 ::placeholder {
+    color: #ed1e79;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.OZIO-body .send {
+    width: 120px;
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    background-color: #58595b;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin-top: 23px;
+}
+
+/* ------------ FOOTER ----------------*/
+footer {
+    margin-top: 140px;
+    color: #ffffff;
+    font-size: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
